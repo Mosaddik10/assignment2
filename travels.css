@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;300;400;500;600;700;800&display=swap');
+
+body {
+    font-family: 'Work Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.nav img {
+    width: 48px;
+    height: 50px;
+}
+.nav h3 {
+    font-size: medium;
+}
+.logo {
+    display:flex;
+}
+.nav ul {
+    display: flex;   
+}
+
+.nav ul li {
+    list-style: none;
+    margin-right: 30px;
+}
+.nav {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+#banner img {
+    margin: 30px 170px;
+    border-radius: 16px;
+     background: linear-gradient(180deg, rgb(0, 0, 0) 0%, rgb(19, 19, 24) 100%);
+}
+#banner h1 {
+    color: rgb(159, 55, 55);
+    font-size: 50px;
+    position: absolute;
+    margin-top: -440px;
+    margin-left: 520px;
+}
+#banner p {
+    color: white;
+    position: absolute;
+    margin-top: -370px;
+    margin-left: 300px;
+}
+.btn {
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    border-radius: 8px;
+    background: #FF900E;
+    padding: 18px 21px 18px 21px;
+    position: absolute;
+    cursor: pointer;
+    margin-top: -300px;
+    margin-left: 900px;
+}
+.btn button {
+    color: #FFF;
+    background-color: #FF900E;
+    border: none;
+}
+.btn1 {
+    color: #FFF;
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    border-radius: 8px;
+    background: #FF900E;
+    padding: 18px 21px 18px 21px;
+    position: absolute;
+    cursor: pointer;
+    margin-top: -298px;
+    margin-left: 400px;
+    color: black;
+    background-color: #FFF;
+    border: none;
+}
+.btn2 {
+    color: #FFF;
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    border-radius: 8px;
+    background: #FF900E;
+    padding: 18px 21px 18px 21px;
+    position: absolute;
+    cursor: pointer;
+    margin-top: -300px;
+    margin-left: 550px;
+    color: black;
+    background-color: #FFF;
+    border: none;
+}
+.btn3 {
+    color: #FFF;
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    border-radius: 8px;
+    background: #FF900E;
+    padding: 18px 21px 18px 21px;
+    position: absolute;
+    cursor: pointer;
+    margin-top: -298px;
+    margin-left: 700px;
+    color: black;
+    background-color: #FFF;
+    border: none;
+}
+.btn2 select {
+      position: relative;
+      margin-right: 2px;
+}
