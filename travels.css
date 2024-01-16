@@ -327,3 +327,181 @@ body {
     margin-top: -135px;
     margin-left: 260px;
 }
+.cointainer {
+    display: block;
+    text-align: center;
+}
+.cointainer h3 {
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.cointainer p {
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: -20px;
+}
+.box-one {
+    display: block;
+    width: 573px;
+    height: 284px;
+    border: 2px dotted blue;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    margin-left: 130px;
+}
+.box-one img {
+    width: 50px;
+    height: 50px;
+    margin-left: 8px;
+    padding: 50px 0 0 0;
+}
+.box-one h5 {
+    color: #131318;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-left: 8px;
+    margin-top: 10px;
+}
+.box-one p {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+.box-two {
+    display: block;
+    width: 573px;
+    height: 284px;
+    border: 2px dotted blue;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    margin-left: 20px;
+}
+.box-two h5 {
+    color: #131318;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-left: 8px;
+    margin-top: 10px;
+}
+.box-two img {
+    width: 50px;
+    height: 50px;
+    margin-left: 8px;
+    padding: 50px 0 0 0;
+}
+.box-two p {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+.boxes {
+    display: flex;
+    margin-left: 150px ;
+    margin-right: 150px;
+    font-weight: 800;
+}
+.box-three {
+    display: block;
+    width: 573px;
+    height: 284px;
+    border: 2px dotted blue;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    margin-left: 500px;
+    margin-top: 20px;
+}
+.box-three img {
+    width: 50px;
+    height: 50px;
+    margin-left: 8px;
+    padding: 50px 0 0 0;
+}
+.box-three p {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+.box-three h5  {
+    color: #131318;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-left: 8px;
+    margin-top: 10px;
+}
+.card {
+    height: 230px;
+    width: 200px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 12px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+     transition: 0.25s;
+    background-position: center;
+    background-size: cover;
+    grid-column: 5px ;
+}
+.col {
+    display: flex;
+    margin-bottom: 13px;
+    top: 15px;
+    font-size: 28px;
+    font-weight: 800;
+    margin-left: 130px ;
+    margin-right: 130px;
+    gap: 100px;
+}
+.card1 h2 {
+    margin-top: -100px;
+    color: white;
+}
+.card2 h2 {
+    margin-top: -100px;
+    color: white;
+}
+.card3 h2 {
+    margin-top: -100px;
+    color: white;
+}
+.card4 h2 {
+    margin-top: -100px;
+    color: white;
+}
+.card1:hover {
+    transform: translateY(10px);
+}
+.card2:hover {
+    transform: translateY(10px);
+}
+.card3:hover {
+    transform: translateY(-10px);
+}
+.card4:hover {
+    transform: translateY(-10px);
+}
+
+
