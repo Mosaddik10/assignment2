@@ -593,3 +593,63 @@ body {
     margin-left: 70px;
     margin-top: 25px;
 }
+footer {
+    width: 80%;
+    height: 50%;
+    background: rgba(19, 19, 24, 0.05);
+    margin-top: 50%;
+}
+.section {
+    margin-top: 1500px;
+}
+.section img {
+    width: 48px;
+    height: 50px;
+}
+.section h3 {
+    font-size: medium;
+}
+.last {
+    display:flex;
+}
+.section {
+    display: flex;
+    position: absolute;
+    flex-wrap: row wrap;
+    color:rgb(19, 19, 24);
+    background: rgba(19, 19, 24, 0.05);
+    margin:-200px 0 0 100px ; 
+    width: 1280px;
+    height: 500px;
+    margin-left: 180px;
+    margin-right: 143px;
+ }
+ .last {
+       position: absolute;
+       margin-left: 550px;
+       margin-top: 110px;
+ }
+ .information {
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 170px;
+ }
+ .address {
+    position: absolute;
+    margin-left: 750px;
+    margin-top: -75px;
+ }
+ .social {
+    position: absolute;
+    margin-left: 550px;
+    margin-top: 300px;
+ }
+ .social i {
+    width: 40px;
+    height: 50px;
+ }
+.all-rights {
+    position: absolute;
+    margin-top: 180px;
+    margin-left: 720px ;
+}
