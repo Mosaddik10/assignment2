@@ -200,14 +200,45 @@ body {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
+    margin-bottom: 13px;
+    font-size: 28px;
+    font-weight: 800;
+    margin-left: 130px ;
+    margin-right: 130px;
 }
 .senary img {
         width: calc( (100% - 10px) );
 }
+.Maldives h3 {
+    color: white;
+     text-align: center;
+     font-size: 28px;
+     font-style: normal;
+     font-weight: 800;
+     line-height: normal;
+     position: absolute;
+     margin-top: -140px;
+     margin-left: 220px;
+}
+.Indonesia h3 {
+    color: white;
+    text-align: center;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    position: absolute;
+    margin-top: -140px;
+    margin-left: 250px;
+}
 .row {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    top: 10px;
+    display: flex;
+    margin-bottom: 13px;
+    top: 15px;
+    font-size: 28px;
+    font-weight: 800;
+    margin-left: 130px ;
+    margin-right: 130px;
 }
 .row div {
     flex: 1;
@@ -219,11 +250,46 @@ body {
     width: calc( (100% - 10px) );
     top: calc( (100% - 10px) );
 }
+.Srilanka h3 {
+    color: white;
+    text-align: center;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    position: absolute;
+    margin-top: -135px;
+    margin-left: 150px;
+}
+.North-America h3 {
+    color: white;
+    text-align: center;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    position: absolute;
+    margin-top: -135px;
+    margin-left: 120px;
+}
+.Kashmir h3 {
+    color: white;
+    text-align: center;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    position: absolute;
+    margin-top: -135px;
+    margin-left: 130px;
+}
 .finish {
     display: grid;
-    grid-template-columns: repeat(2, 1fr) ;
-    gap: 10px;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 130px ;
+    margin-right: 130px;
 }
+
 .finish img {
     width: calc( (100% - 10px) );
     top: calc( (100% - 10px) );
@@ -231,11 +297,33 @@ body {
 .finish div {
     flex: 1;
 }
-.finish .as {
-    width: 500;
-    
+.finish .Bangladesh {
+    width: 500;   
 }
-.finish .ap {
-    height: 100%;
-    width: 880px;
+.Bangladesh h3 {
+    color: white;
+    text-align: center;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    position: absolute;
+    margin-top: -135px;
+    margin-left: 130px;
+}
+.finish .Bandarban {
+    width: 740px;
+    font-size: 8px;
+    font-weight: 0;
+}
+.Bandarban h3 {
+    color: white;
+    text-align: center;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    position: absolute;
+    margin-top: -135px;
+    margin-left: 260px;
 }
