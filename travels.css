@@ -653,3 +653,20 @@ footer {
     margin-top: 180px;
     margin-left: 720px ;
 }
+
+/* mobile */
+
+@media screen and (max-width:576px) {
+    .nav {
+        flex-direction: column;
+        padding: 10px;
+        text-align: center;
+        margin-left: 100%;
+    }
+    .nav h3 {
+        text-align: start;
+    font-size: 50px;
+}
+
+}
+
